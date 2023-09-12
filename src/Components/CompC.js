@@ -1,14 +1,18 @@
-import React, { useContext } from 'react'
-import { UserContext } from '../App'
+// import React, { useContext } from 'react'
+// import { CountContex } from '../App'
 
-function CompC() {
-    const user=useContext(UserContext)
+// function CompC() {
 
-  return (
-        <div>
-            {user } heyyy
-        </div>
-  )
-}
+//     const countContex=useContext(CountContex)
+//     return (
+//       <div>
+//         CompC  {countContex.countState}
+//         <button onClick={()=>countContex.countDispatch("increment")}>increment</button>
+//         <button onClick={()=>countContex.countDispatch("decrement")}>decrement</button>
+//         <button onClick={()=>countContex.countDispatch("reset")}>reset</button>
+  
+//         </div>
+//     )
+// }
 
-export default CompC
+// export default CompC

@@ -1,12 +1,17 @@
-import React from 'react'
-import CompB from './CompB'
+// import React, { useContext } from 'react'
+// import { CountContex } from '../App'
 
-function CompA() {
-  return (
-    <div>
-        <CompB></CompB>
-    </div>
-  )
-}
+// function CompA() {
+//     const countContex=useContext(CountContex)
+//   return (
+//     <div>
+//       CompA  {countContex.countState}
+//       <button onClick={()=>countContex.countDispatch("increment")}>increment</button>
+//       <button onClick={()=>countContex.countDispatch("decrement")}>decrement</button>
+//       <button onClick={()=>countContex.countDispatch("reset")}>reset</button>
 
-export default CompA
+//       </div>
+//   )
+// }
+
+// export default CompA
